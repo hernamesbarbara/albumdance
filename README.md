@@ -1,6 +1,10 @@
 # Album Dance
 
-`Album Dance` automates the process of splitting a single audio file into multiple tracks, exporting each track as an MP3 file, and tagging them with metadata including title, artist, album, genre, and more. This tool is particularly useful for processing albums, live recordings, or any audio file that contains multiple songs or segments that need to be individually tracked and tagged.
+Split a single audio file into multiple tracks, exporting each track as an MP3 file.
+
+`albumdance` will tag each song with metadata including title, artist, album, genre, and more.
+
+This tool is particularly useful for processing albums, live recordings, or any audio file that contains multiple songs or segments that need to be individually tracked and tagged.
 
 ## Features
 
