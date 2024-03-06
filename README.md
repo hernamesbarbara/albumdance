@@ -45,6 +45,30 @@ To use Album Dance, navigate to the directory containing the script and run:
 - `<metadata.csv>`: Path to the CSV file containing song metadata.
 - `<cover_art.jpg>`: Path to the cover art image (jpg or png).
 
+## Metadata CSV Format
+
+The `metadata.csv` contains song metadata used to split the audio file and tag each track.
+
+Below is the format of the CSV file along with a sample row of data:
+
+| Column Name         | Description                                              | Example           |
+| ------------------- | -------------------------------------------------------- | ----------------- |
+| `title`             | The title of the track                                   | Fall Children     |
+| `artist`            | The artist of the track                                  | A.F.I.            |
+| `album_artist`      | The album artist                                         | A.F.I.            |
+| `album`             | The album name                                           | All Hallow's - EP |
+| `genre`             | The genre of the track                                   | Punk              |
+| `track`             | The track number/total number of tracks in the album     | 1/4               |
+| `date`              | The release date of the track                            | 1999              |
+| `compilation`       | Indicates if the track is part of a compilation (0 or 1) | 0                 |
+| `media_type`        | The type of media (numeric representation)               | 1                 |
+| `comment`           | Any additional comments                                  | SF Punk           |
+| `start_HH:MM:SS`    | The start time of the track in the input media           | 00:00:00          |
+| `end_HH:MM:SS`      | The end time of the track in the input media             | 00:03:12          |
+| `duration_HH:MM:SS` | The duration of the track                                | 00:03:12          |
+
+Ensure your `metadata.csv` file follows this format. A sample file is included in the repository for reference.
+
 Contributing
 Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
