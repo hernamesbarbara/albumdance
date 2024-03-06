@@ -31,7 +31,7 @@ pip install pydub eyed3 pandas docopt
 To use Album Dance, navigate to the directory containing the script and run:
 
 ```./albumdance.py <input_media> <metadata.csv> <cover_art.jpg>
-````
+```
 
 ## Arguments:
 
@@ -45,3 +45,4 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 ### License
 
 This project is open source and available under the MIT License.
+````
